@@ -16,7 +16,7 @@
 #import "CityModel.h"
 #import "AreaModel.h"
 
-@interface ViewController ()<UIPickerViewDelegate,UIPickerViewDataSource>
+@interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
 @property(nonatomic,strong)NSArray<ProvinceModel *> *provinceArr; // 省
 @property(nonatomic,strong)NSArray<CityModel *> *cityArr; // 市
@@ -38,7 +38,6 @@
             case AFNetworkReachabilityStatusReachableViaWiFi:
                 [self loadData];
                 break;
-                
             default:
                 break;
         }
@@ -46,6 +45,7 @@
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
 }
 
+#pragma mark - 加载数据
 - (void)loadData {
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager js_mgr];
     // 参考假数据实现《http://192.168.11.128/getArea.html》
@@ -56,7 +56,9 @@
         self.cityArr = self.provinceArr.firstObject.children;
         // 区
         self.areaArr = self.cityArr.firstObject.children;
+        // 刷新
         [self.pickerView reloadAllComponents];
+        // 停止网络监听
         [[AFNetworkReachabilityManager sharedManager] stopMonitoring];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         [[AFNetworkReachabilityManager sharedManager] stopMonitoring];
@@ -104,7 +106,6 @@
 }
 
 // 滑动或点击选择，确认pickerView选中结果
-
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     switch (component) {
         case 0: // 省
