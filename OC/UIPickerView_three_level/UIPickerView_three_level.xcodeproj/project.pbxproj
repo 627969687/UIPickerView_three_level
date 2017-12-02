@@ -16,6 +16,11 @@
 		8E05110A1FCEABDB00F7835F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0511091FCEABDB00F7835F /* main.m */; };
 		8E0511141FCEABDB00F7835F /* UIPickerView_three_levelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0511131FCEABDB00F7835F /* UIPickerView_three_levelTests.m */; };
 		8E05111F1FCEABDB00F7835F /* UIPickerView_three_levelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05111E1FCEABDB00F7835F /* UIPickerView_three_levelUITests.m */; };
+		8E0511EF1FD14A3E00F7835F /* AFHTTPSessionManager+JSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0511ED1FD14A3E00F7835F /* AFHTTPSessionManager+JSManager.m */; };
+		8E0511F21FD1579F00F7835F /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0511F11FD1579F00F7835F /* ProvinceModel.m */; };
+		8E0511F51FD15EB200F7835F /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0511F41FD15EB200F7835F /* CityModel.m */; };
+		8E0511F81FD16B6C00F7835F /* AreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0511F71FD16B6C00F7835F /* AreaModel.m */; };
+		8E0511FA1FD23F4300F7835F /* getArea.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E0511F91FD23F4200F7835F /* getArea.html */; };
 		E43DF7A997013B81EE621AD1 /* Pods_UIPickerView_three_level.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC4082A485BB0DF844A7EB0 /* Pods_UIPickerView_three_level.framework */; };
 		E4880318E130808027C4AD01 /* Pods_UIPickerView_three_levelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA7FD5AF8B40ADFF50A2F8 /* Pods_UIPickerView_three_levelUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +66,15 @@
 		8E05111A1FCEABDB00F7835F /* UIPickerView_three_levelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPickerView_three_levelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E05111E1FCEABDB00F7835F /* UIPickerView_three_levelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPickerView_three_levelUITests.m; sourceTree = "<group>"; };
 		8E0511201FCEABDB00F7835F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0511ED1FD14A3E00F7835F /* AFHTTPSessionManager+JSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+JSManager.m"; sourceTree = "<group>"; };
+		8E0511EE1FD14A3E00F7835F /* AFHTTPSessionManager+JSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+JSManager.h"; sourceTree = "<group>"; };
+		8E0511F01FD1579E00F7835F /* ProvinceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvinceModel.h; sourceTree = "<group>"; };
+		8E0511F11FD1579F00F7835F /* ProvinceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
+		8E0511F31FD15EB200F7835F /* CityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		8E0511F41FD15EB200F7835F /* CityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		8E0511F61FD16B6C00F7835F /* AreaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AreaModel.h; sourceTree = "<group>"; };
+		8E0511F71FD16B6C00F7835F /* AreaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreaModel.m; sourceTree = "<group>"; };
+		8E0511F91FD23F4200F7835F /* getArea.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = getArea.html; sourceTree = "<group>"; };
 		B5E7B2CB75FC017190C27C62 /* Pods-UIPickerView_three_levelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPickerView_three_levelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIPickerView_three_levelUITests/Pods-UIPickerView_three_levelUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FDEA7FD5AF8B40ADFF50A2F8 /* Pods_UIPickerView_three_levelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIPickerView_three_levelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,10 +142,19 @@
 		8E0510F91FCEABDB00F7835F /* UIPickerView_three_level */ = {
 			isa = PBXGroup;
 			children = (
+				8E0511F91FD23F4200F7835F /* getArea.html */,
 				8E0510FA1FCEABDB00F7835F /* AppDelegate.h */,
 				8E0510FB1FCEABDB00F7835F /* AppDelegate.m */,
 				8E0510FD1FCEABDB00F7835F /* ViewController.h */,
 				8E0510FE1FCEABDB00F7835F /* ViewController.m */,
+				8E0511F01FD1579E00F7835F /* ProvinceModel.h */,
+				8E0511F11FD1579F00F7835F /* ProvinceModel.m */,
+				8E0511F31FD15EB200F7835F /* CityModel.h */,
+				8E0511F41FD15EB200F7835F /* CityModel.m */,
+				8E0511F61FD16B6C00F7835F /* AreaModel.h */,
+				8E0511F71FD16B6C00F7835F /* AreaModel.m */,
+				8E0511EE1FD14A3E00F7835F /* AFHTTPSessionManager+JSManager.h */,
+				8E0511ED1FD14A3E00F7835F /* AFHTTPSessionManager+JSManager.m */,
 				8E0511001FCEABDB00F7835F /* Main.storyboard */,
 				8E0511031FCEABDB00F7835F /* Assets.xcassets */,
 				8E0511051FCEABDB00F7835F /* LaunchScreen.storyboard */,
@@ -287,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0511FA1FD23F4300F7835F /* getArea.html in Resources */,
 				8E0511071FCEABDB00F7835F /* LaunchScreen.storyboard in Resources */,
 				8E0511041FCEABDB00F7835F /* Assets.xcassets in Resources */,
 				8E0511021FCEABDB00F7835F /* Main.storyboard in Resources */,
@@ -363,10 +387,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-UIPickerView_three_level/Pods-UIPickerView_three_level-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -464,8 +490,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0511EF1FD14A3E00F7835F /* AFHTTPSessionManager+JSManager.m in Sources */,
+				8E0511F21FD1579F00F7835F /* ProvinceModel.m in Sources */,
+				8E0511F81FD16B6C00F7835F /* AreaModel.m in Sources */,
 				8E0510FF1FCEABDB00F7835F /* ViewController.m in Sources */,
 				8E05110A1FCEABDB00F7835F /* main.m in Sources */,
+				8E0511F51FD15EB200F7835F /* CityModel.m in Sources */,
 				8E0510FC1FCEABDB00F7835F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
