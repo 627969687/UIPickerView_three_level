@@ -1,0 +1,6 @@
+framework module Pods_UIPickerView_three_levelUITests {
+  umbrella header "Pods-UIPickerView_three_levelUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

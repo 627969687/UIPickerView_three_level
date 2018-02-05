@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66FF2D021D284F06099C149B /* Pods_UIPickerView_three_levelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACA12595EC3F7D1C4F7174B /* Pods_UIPickerView_three_levelUITests.framework */; };
+		81FF451F62B31F27E0D5C53D /* Pods_UIPickerView_three_levelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2579DCE654E2A52DFEAD15 /* Pods_UIPickerView_three_levelTests.framework */; };
+		98FEFA582027F9570019062C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FEFA572027F9570019062C /* AppDelegate.swift */; };
+		98FEFA5A2027F9570019062C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FEFA592027F9570019062C /* ViewController.swift */; };
+		98FEFA5D2027F9570019062C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FEFA5B2027F9570019062C /* Main.storyboard */; };
+		98FEFA5F2027F9570019062C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FEFA5E2027F9570019062C /* Assets.xcassets */; };
+		98FEFA622027F9570019062C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FEFA602027F9570019062C /* LaunchScreen.storyboard */; };
+		98FEFA6D2027F9570019062C /* UIPickerView_three_levelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FEFA6C2027F9570019062C /* UIPickerView_three_levelTests.swift */; };
+		98FEFA782027F9570019062C /* UIPickerView_three_levelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FEFA772027F9570019062C /* UIPickerView_three_levelUITests.swift */; };
+		A2EF5C9487A1E7DCE936291A /* Pods_UIPickerView_three_level.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6828B0DA6B06DAADAD3D9144 /* Pods_UIPickerView_three_level.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98FEFA692027F9570019062C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FEFA4C2027F9570019062C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FEFA532027F9570019062C;
+			remoteInfo = UIPickerView_three_level;
+		};
+		98FEFA742027F9570019062C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FEFA4C2027F9570019062C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FEFA532027F9570019062C;
+			remoteInfo = UIPickerView_three_level;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6828B0DA6B06DAADAD3D9144 /* Pods_UIPickerView_three_level.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIPickerView_three_level.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84374FAC72C9F8C3E4A3EA20 /* Pods-UIPickerView_three_levelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPickerView_three_levelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIPickerView_three_levelUITests/Pods-UIPickerView_three_levelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		932782838F3DFCEF4AA5521C /* Pods-UIPickerView_three_levelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPickerView_three_levelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIPickerView_three_levelUITests/Pods-UIPickerView_three_levelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98FEFA542027F9570019062C /* UIPickerView_three_level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPickerView_three_level.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FEFA572027F9570019062C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98FEFA592027F9570019062C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98FEFA5C2027F9570019062C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98FEFA5E2027F9570019062C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98FEFA612027F9570019062C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98FEFA632027F9570019062C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FEFA682027F9570019062C /* UIPickerView_three_levelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPickerView_three_levelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FEFA6C2027F9570019062C /* UIPickerView_three_levelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerView_three_levelTests.swift; sourceTree = "<group>"; };
+		98FEFA6E2027F9570019062C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FEFA732027F9570019062C /* UIPickerView_three_levelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPickerView_three_levelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FEFA772027F9570019062C /* UIPickerView_three_levelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerView_three_levelUITests.swift; sourceTree = "<group>"; };
+		98FEFA792027F9570019062C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACA12595EC3F7D1C4F7174B /* Pods_UIPickerView_three_levelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIPickerView_three_levelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25D51929BE8D3B71EA877F3 /* Pods-UIPickerView_three_level.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPickerView_three_level.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIPickerView_three_level/Pods-UIPickerView_three_level.release.xcconfig"; sourceTree = "<group>"; };
+		BD2579DCE654E2A52DFEAD15 /* Pods_UIPickerView_three_levelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIPickerView_three_levelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6982113D5EC39ED509B86EB /* Pods-UIPickerView_three_level.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPickerView_three_level.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIPickerView_three_level/Pods-UIPickerView_three_level.debug.xcconfig"; sourceTree = "<group>"; };
+		DBA7379526CBF36314DAA3A5 /* Pods-UIPickerView_three_levelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPickerView_three_levelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIPickerView_three_levelTests/Pods-UIPickerView_three_levelTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCD82C30A880DDE23F61B586 /* Pods-UIPickerView_three_levelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPickerView_three_levelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIPickerView_three_levelTests/Pods-UIPickerView_three_levelTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98FEFA512027F9570019062C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EF5C9487A1E7DCE936291A /* Pods_UIPickerView_three_level.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEFA652027F9570019062C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FF451F62B31F27E0D5C53D /* Pods_UIPickerView_three_levelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEFA702027F9570019062C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF2D021D284F06099C149B /* Pods_UIPickerView_three_levelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F12B64338D4C25837BABC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6828B0DA6B06DAADAD3D9144 /* Pods_UIPickerView_three_level.framework */,
+				BD2579DCE654E2A52DFEAD15 /* Pods_UIPickerView_three_levelTests.framework */,
+				9ACA12595EC3F7D1C4F7174B /* Pods_UIPickerView_three_levelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98FEFA4B2027F9570019062C = {
+			isa = PBXGroup;
+			children = (
+				98FEFA562027F9570019062C /* UIPickerView_three_level */,
+				98FEFA6B2027F9570019062C /* UIPickerView_three_levelTests */,
+				98FEFA762027F9570019062C /* UIPickerView_three_levelUITests */,
+				98FEFA552027F9570019062C /* Products */,
+				E9E03AE63DBC3A909D762156 /* Pods */,
+				13F12B64338D4C25837BABC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98FEFA552027F9570019062C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98FEFA542027F9570019062C /* UIPickerView_three_level.app */,
+				98FEFA682027F9570019062C /* UIPickerView_three_levelTests.xctest */,
+				98FEFA732027F9570019062C /* UIPickerView_three_levelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98FEFA562027F9570019062C /* UIPickerView_three_level */ = {
+			isa = PBXGroup;
+			children = (
+				98FEFA572027F9570019062C /* AppDelegate.swift */,
+				98FEFA592027F9570019062C /* ViewController.swift */,
+				98FEFA5B2027F9570019062C /* Main.storyboard */,
+				98FEFA5E2027F9570019062C /* Assets.xcassets */,
+				98FEFA602027F9570019062C /* LaunchScreen.storyboard */,
+				98FEFA632027F9570019062C /* Info.plist */,
+			);
+			path = UIPickerView_three_level;
+			sourceTree = "<group>";
+		};
+		98FEFA6B2027F9570019062C /* UIPickerView_three_levelTests */ = {
+			isa = PBXGroup;
+			children = (
+				98FEFA6C2027F9570019062C /* UIPickerView_three_levelTests.swift */,
+				98FEFA6E2027F9570019062C /* Info.plist */,
+			);
+			path = UIPickerView_three_levelTests;
+			sourceTree = "<group>";
+		};
+		98FEFA762027F9570019062C /* UIPickerView_three_levelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98FEFA772027F9570019062C /* UIPickerView_three_levelUITests.swift */,
+				98FEFA792027F9570019062C /* Info.plist */,
+			);
+			path = UIPickerView_three_levelUITests;
+			sourceTree = "<group>";
+		};
+		E9E03AE63DBC3A909D762156 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6982113D5EC39ED509B86EB /* Pods-UIPickerView_three_level.debug.xcconfig */,
+				A25D51929BE8D3B71EA877F3 /* Pods-UIPickerView_three_level.release.xcconfig */,
+				DCD82C30A880DDE23F61B586 /* Pods-UIPickerView_three_levelTests.debug.xcconfig */,
+				DBA7379526CBF36314DAA3A5 /* Pods-UIPickerView_three_levelTests.release.xcconfig */,
+				932782838F3DFCEF4AA5521C /* Pods-UIPickerView_three_levelUITests.debug.xcconfig */,
+				84374FAC72C9F8C3E4A3EA20 /* Pods-UIPickerView_three_levelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98FEFA532027F9570019062C /* UIPickerView_three_level */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FEFA7C2027F9570019062C /* Build configuration list for PBXNativeTarget "UIPickerView_three_level" */;
+			buildPhases = (
+				5A9520983B3D602FD8CE1942 /* [CP] Check Pods Manifest.lock */,
+				98FEFA502027F9570019062C /* Sources */,
+				98FEFA512027F9570019062C /* Frameworks */,
+				98FEFA522027F9570019062C /* Resources */,
+				CFAC769C5DE5FB09B32CF85B /* [CP] Embed Pods Frameworks */,
+				67AA0057168F1A42896ACCFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIPickerView_three_level;
+			productName = UIPickerView_three_level;
+			productReference = 98FEFA542027F9570019062C /* UIPickerView_three_level.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98FEFA672027F9570019062C /* UIPickerView_three_levelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FEFA7F2027F9570019062C /* Build configuration list for PBXNativeTarget "UIPickerView_three_levelTests" */;
+			buildPhases = (
+				81EA94C10C8BD8978ABC5F6D /* [CP] Check Pods Manifest.lock */,
+				98FEFA642027F9570019062C /* Sources */,
+				98FEFA652027F9570019062C /* Frameworks */,
+				98FEFA662027F9570019062C /* Resources */,
+				5DCF4B7906D6B1BEA6D640C5 /* [CP] Embed Pods Frameworks */,
+				A12FFE722CBF4F226FDAD9C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FEFA6A2027F9570019062C /* PBXTargetDependency */,
+			);
+			name = UIPickerView_three_levelTests;
+			productName = UIPickerView_three_levelTests;
+			productReference = 98FEFA682027F9570019062C /* UIPickerView_three_levelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98FEFA722027F9570019062C /* UIPickerView_three_levelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FEFA822027F9570019062C /* Build configuration list for PBXNativeTarget "UIPickerView_three_levelUITests" */;
+			buildPhases = (
+				A45430925475F8AD24E82953 /* [CP] Check Pods Manifest.lock */,
+				98FEFA6F2027F9570019062C /* Sources */,
+				98FEFA702027F9570019062C /* Frameworks */,
+				98FEFA712027F9570019062C /* Resources */,
+				4ABCF3281B95CDD072E85C27 /* [CP] Embed Pods Frameworks */,
+				705035F1C079D91A4E9FBDDD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FEFA752027F9570019062C /* PBXTargetDependency */,
+			);
+			name = UIPickerView_three_levelUITests;
+			productName = UIPickerView_three_levelUITests;
+			productReference = 98FEFA732027F9570019062C /* UIPickerView_three_levelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98FEFA4C2027F9570019062C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kuyou;
+				TargetAttributes = {
+					98FEFA532027F9570019062C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					98FEFA672027F9570019062C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98FEFA532027F9570019062C;
+					};
+					98FEFA722027F9570019062C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98FEFA532027F9570019062C;
+					};
+				};
+			};
+			buildConfigurationList = 98FEFA4F2027F9570019062C /* Build configuration list for PBXProject "UIPickerView_three_level" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98FEFA4B2027F9570019062C;
+			productRefGroup = 98FEFA552027F9570019062C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98FEFA532027F9570019062C /* UIPickerView_three_level */,
+				98FEFA672027F9570019062C /* UIPickerView_three_levelTests */,
+				98FEFA722027F9570019062C /* UIPickerView_three_levelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98FEFA522027F9570019062C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FEFA622027F9570019062C /* LaunchScreen.storyboard in Resources */,
+				98FEFA5F2027F9570019062C /* Assets.xcassets in Resources */,
+				98FEFA5D2027F9570019062C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEFA662027F9570019062C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEFA712027F9570019062C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ABCF3281B95CDD072E85C27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPickerView_three_levelUITests/Pods-UIPickerView_three_levelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A9520983B3D602FD8CE1942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCF4B7906D6B1BEA6D640C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPickerView_three_levelTests/Pods-UIPickerView_three_levelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67AA0057168F1A42896ACCFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPickerView_three_level/Pods-UIPickerView_three_level-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		705035F1C079D91A4E9FBDDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPickerView_three_levelUITests/Pods-UIPickerView_three_levelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81EA94C10C8BD8978ABC5F6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A12FFE722CBF4F226FDAD9C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPickerView_three_levelTests/Pods-UIPickerView_three_levelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45430925475F8AD24E82953 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFAC769C5DE5FB09B32CF85B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIPickerView_three_level/Pods-UIPickerView_three_level-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98FEFA502027F9570019062C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FEFA5A2027F9570019062C /* ViewController.swift in Sources */,
+				98FEFA582027F9570019062C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEFA642027F9570019062C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FEFA6D2027F9570019062C /* UIPickerView_three_levelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEFA6F2027F9570019062C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FEFA782027F9570019062C /* UIPickerView_three_levelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98FEFA6A2027F9570019062C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FEFA532027F9570019062C /* UIPickerView_three_level */;
+			targetProxy = 98FEFA692027F9570019062C /* PBXContainerItemProxy */;
+		};
+		98FEFA752027F9570019062C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FEFA532027F9570019062C /* UIPickerView_three_level */;
+			targetProxy = 98FEFA742027F9570019062C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98FEFA5B2027F9570019062C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FEFA5C2027F9570019062C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98FEFA602027F9570019062C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FEFA612027F9570019062C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98FEFA7A2027F9570019062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98FEFA7B2027F9570019062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98FEFA7D2027F9570019062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6982113D5EC39ED509B86EB /* Pods-UIPickerView_three_level.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIPickerView_three_level/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuyou.UIPickerView-three-level";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98FEFA7E2027F9570019062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25D51929BE8D3B71EA877F3 /* Pods-UIPickerView_three_level.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIPickerView_three_level/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuyou.UIPickerView-three-level";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98FEFA802027F9570019062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD82C30A880DDE23F61B586 /* Pods-UIPickerView_three_levelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIPickerView_three_levelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuyou.UIPickerView-three-levelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPickerView_three_level.app/UIPickerView_three_level";
+			};
+			name = Debug;
+		};
+		98FEFA812027F9570019062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA7379526CBF36314DAA3A5 /* Pods-UIPickerView_three_levelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIPickerView_three_levelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuyou.UIPickerView-three-levelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPickerView_three_level.app/UIPickerView_three_level";
+			};
+			name = Release;
+		};
+		98FEFA832027F9570019062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932782838F3DFCEF4AA5521C /* Pods-UIPickerView_three_levelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIPickerView_three_levelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuyou.UIPickerView-three-levelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIPickerView_three_level;
+			};
+			name = Debug;
+		};
+		98FEFA842027F9570019062C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84374FAC72C9F8C3E4A3EA20 /* Pods-UIPickerView_three_levelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIPickerView_three_levelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuyou.UIPickerView-three-levelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIPickerView_three_level;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98FEFA4F2027F9570019062C /* Build configuration list for PBXProject "UIPickerView_three_level" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FEFA7A2027F9570019062C /* Debug */,
+				98FEFA7B2027F9570019062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FEFA7C2027F9570019062C /* Build configuration list for PBXNativeTarget "UIPickerView_three_level" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FEFA7D2027F9570019062C /* Debug */,
+				98FEFA7E2027F9570019062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FEFA7F2027F9570019062C /* Build configuration list for PBXNativeTarget "UIPickerView_three_levelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FEFA802027F9570019062C /* Debug */,
+				98FEFA812027F9570019062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FEFA822027F9570019062C /* Build configuration list for PBXNativeTarget "UIPickerView_three_levelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FEFA832027F9570019062C /* Debug */,
+				98FEFA842027F9570019062C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98FEFA4C2027F9570019062C /* Project object */;
+}

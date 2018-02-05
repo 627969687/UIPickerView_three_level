@@ -49,7 +49,7 @@
 - (void)loadData {
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager js_mgr];
     // 参考假数据实现《http://192.168.11.128/getArea.html》
-    [mgr GET:@"http://192.168.11.128/getArea.html" parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary *result) {
+    [mgr GET:@"http://172.16.19.97/getArea.html" parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary *result) {
         // 省
         self.provinceArr = [ProvinceModel mj_objectArrayWithKeyValuesArray:result[@"resultInfo"]];
         // 市
