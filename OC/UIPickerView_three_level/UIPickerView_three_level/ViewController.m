@@ -30,15 +30,19 @@
     [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
         switch (status) {
             case AFNetworkReachabilityStatusUnknown:
+                NSLog(@"###未知网络");
                 [self loadData];
                 break;
             case AFNetworkReachabilityStatusReachableViaWWAN:
+                NSLog(@"###移动数据");
                 [self loadData];
                 break;
             case AFNetworkReachabilityStatusReachableViaWiFi:
+                NSLog(@"###wifi");
                 [self loadData];
                 break;
             default:
+                NSLog(@"###没有网络");
                 break;
         }
     }];
@@ -112,15 +116,15 @@
             self.cityArr = self.provinceArr[row].children;
             self.areaArr = self.cityArr.firstObject.children;
             
-            [self.pickerView reloadAllComponents];
             [self.pickerView selectRow:0 inComponent:1 animated:false];
             [self.pickerView selectRow:0 inComponent:2 animated:false];
+            [self.pickerView reloadAllComponents];
             break;
         case 1: // 市
             self.areaArr = self.cityArr[row].children;
             
-            [self.pickerView reloadAllComponents];
             [self.pickerView selectRow:0 inComponent:2 animated:false];
+            [self.pickerView reloadComponent:2];
             break;
         case 2: // 区
             break;

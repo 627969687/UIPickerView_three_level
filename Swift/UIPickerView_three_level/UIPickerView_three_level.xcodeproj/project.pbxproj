@@ -16,6 +16,8 @@
 		98FEFA622027F9570019062C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FEFA602027F9570019062C /* LaunchScreen.storyboard */; };
 		98FEFA6D2027F9570019062C /* UIPickerView_three_levelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FEFA6C2027F9570019062C /* UIPickerView_three_levelTests.swift */; };
 		98FEFA782027F9570019062C /* UIPickerView_three_levelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FEFA772027F9570019062C /* UIPickerView_three_levelUITests.swift */; };
+		98FEFA892028447D0019062C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FEFA882028447D0019062C /* Model.swift */; };
+		98FEFA8B20285E9C0019062C /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FEFA8A20285E9C0019062C /* TestModel.swift */; };
 		A2EF5C9487A1E7DCE936291A /* Pods_UIPickerView_three_level.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6828B0DA6B06DAADAD3D9144 /* Pods_UIPickerView_three_level.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		98FEFA732027F9570019062C /* UIPickerView_three_levelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPickerView_three_levelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FEFA772027F9570019062C /* UIPickerView_three_levelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerView_three_levelUITests.swift; sourceTree = "<group>"; };
 		98FEFA792027F9570019062C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FEFA882028447D0019062C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		98FEFA8A20285E9C0019062C /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		9ACA12595EC3F7D1C4F7174B /* Pods_UIPickerView_three_levelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIPickerView_three_levelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25D51929BE8D3B71EA877F3 /* Pods-UIPickerView_three_level.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIPickerView_three_level.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIPickerView_three_level/Pods-UIPickerView_three_level.release.xcconfig"; sourceTree = "<group>"; };
 		BD2579DCE654E2A52DFEAD15 /* Pods_UIPickerView_three_levelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIPickerView_three_levelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +130,8 @@
 			children = (
 				98FEFA572027F9570019062C /* AppDelegate.swift */,
 				98FEFA592027F9570019062C /* ViewController.swift */,
+				98FEFA882028447D0019062C /* Model.swift */,
+				98FEFA8A20285E9C0019062C /* TestModel.swift */,
 				98FEFA5B2027F9570019062C /* Main.storyboard */,
 				98FEFA5E2027F9570019062C /* Assets.xcassets */,
 				98FEFA602027F9570019062C /* LaunchScreen.storyboard */,
@@ -446,8 +452,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98FEFA892028447D0019062C /* Model.swift in Sources */,
 				98FEFA5A2027F9570019062C /* ViewController.swift in Sources */,
 				98FEFA582027F9570019062C /* AppDelegate.swift in Sources */,
+				98FEFA8B20285E9C0019062C /* TestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,7 +623,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W54UPLZLQ8;
 				INFOPLIST_FILE = UIPickerView_three_level/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kuyou.UIPickerView-three-level";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -630,7 +640,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W54UPLZLQ8;
 				INFOPLIST_FILE = UIPickerView_three_level/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kuyou.UIPickerView-three-level";
 				PRODUCT_NAME = "$(TARGET_NAME)";

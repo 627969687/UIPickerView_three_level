@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UIPickerView_three_level/Model.swift"
+            timestampString = "539590660.420328"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Model"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIPickerView_three_level.Model.resultCode.getter : Swift.Int"
+                  moduleName = "UIPickerView_three_level"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuyou1/Documents/mine/demo/iOS/github/UIPickerView_three_level/Swift/UIPickerView_three_level/UIPickerView_three_level/Model.swift"
+                  timestampString = "539590660.526836"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIPickerView_three_level.Model.resultCode.setter : Swift.Int"
+                  moduleName = "UIPickerView_three_level"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuyou1/Documents/mine/demo/iOS/github/UIPickerView_three_level/Swift/UIPickerView_three_level/UIPickerView_three_level/Model.swift"
+                  timestampString = "539590660.528872"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

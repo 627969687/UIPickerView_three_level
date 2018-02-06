@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "745A7596956D70E998F792C795CACBCA"
-               BuildableName = "Pods_UIPickerView_three_levelTests.framework"
-               BlueprintName = "Pods-UIPickerView_three_levelTests"
+               BlueprintIdentifier = "88E9EC28B8B46C3631E6B242B50F4442"
+               BuildableName = "Alamofire.framework"
+               BlueprintName = "Alamofire"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "745A7596956D70E998F792C795CACBCA"
-            BuildableName = "Pods_UIPickerView_three_levelTests.framework"
-            BlueprintName = "Pods-UIPickerView_three_levelTests"
+            BlueprintIdentifier = "88E9EC28B8B46C3631E6B242B50F4442"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
